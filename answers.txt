@@ -1,0 +1,20 @@
+Answers
+
+Part II
+1 a)
+Output
+/*
+Text Address 0x8048720
+Stack Address 0xeffff8e4
+Global Data Address 0x8049a3c
+Heap Data Address 0x804b030
+*/
+
+1 b)
+Output
+/*
+failed after about 1000 mallocs of 1MB each
+*/
+My local minix virtual machine had about 1024MB of physical memory
+Therefore, it makes sense for the program to fail after about 1000MB
+have been allocated and used. This implies no swap is being used.
